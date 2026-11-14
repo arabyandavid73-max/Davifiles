@@ -10,11 +10,12 @@ android {
         applicationId 'com.davidik.files'
         minSdk 23
         targetSdk 28
-        versionCode 1
-        versionName '1.0'
+        versionCode 2
+        versionName '2.0'
     }
 }
 
 dependencies {
     implementation 'androidx.documentfile:documentfile:1.0.1'
+    implementation 'com.github.junrar:junrar:8.1.2'
 }
